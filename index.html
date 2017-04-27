@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Personality survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hello</h1>
+      <h3>Take our survey!</h3>
+      <form id="survey">
+        <select id="gender" class="form-control">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <select id="personality" class="form-control">
+          <option value="introvert">Introverted</option>
+          <option value="extrovert">Extroverted</option>
+        </select>
+        <div class="radio">
+          <label>
+            <input type="radio" name="age" value="minor">10-18</input>
+          </label><br>
+          <label>
+            <input type="radio" name="age" value="youngAdult">19-30</input>
+          </label><br>
+          <label>
+            <input type="radio" name="age" value="overTheHill">31 and older</input>
+          </label><br>
+
+        <button value="submit" class="btn">Submit!</button>
+      </form>
+    </div>
+  </body>
+</html>
